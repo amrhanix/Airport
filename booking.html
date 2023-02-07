@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+  
+    <title>Booking</title>
+</head>
+<body>
+   
+
+	<section class="login">
+		<div class="login_box">
+			<div class="left">
+				<div class="top_link"><i class="fa-solid fa-house"></i><a href="interface.html">Return home</a></div>
+				<div class="contact">
+					<form action="">	
+						<h3>BOOKING</h3>
+						<p>Choose your flight now with Spirit Airlines</p>
+					
+						<div class="user">
+
+							<div class="inputbox-1">
+								<label for="round">Round</label>
+								<input type="radio" name="X" value="round" onclick="text(0)">
+							</div>
+							<div class="inputbox-1">
+								<label for="oneway">One Way</label>
+								<input type="radio" name="X" value="oneway" onclick="text(1)">
+							</div>
+							<div class="inputbox">
+								<i class="fa-solid fa-location-dot"></i>
+							<label>From</label>
+							<select name="FROM">
+								<option value="Spain">Spain</option>
+								<option value="Argentina">Argentina</option>
+								<option value="Brazil">Brazil</option>
+								<option value="Egypt">Egypt</option>
+								<option value="Italy">Italy</option>
+								<option value="Germany">Germany</option>
+								
+							</select>
+						 </div>
+							<div class="inputbox">
+								<i class="fa-solid fa-location-pin"></i>
+								<label>TO</label>
+								<select name="TO">
+									<option value="Argentina">Argentina</option>
+									<option value="Brazil">Brazil</option>
+									<option value="Egypt">Egypt</option>
+									<option value="Italy">Italy</option>
+									<option value="Germany">Germany</option>
+									<option value="Spain">Spain</option>
+									
+								
+									
+						
+								</select>
+						
+
+							
+							</div>
+							<div class="inputbox">
+								<i class="fa-solid fa-plane-departure"></i>
+						      <label>Departure Date</label>
+							  <input type="text">
+							</div>
+							<div class="inputbox" id="rem">
+								<i class="fa-solid fa-plane-arrival"></i>
+						     <label>Return Date</label>
+							 <input type="text">
+							</div>
+							<div class="inputbox">
+								<i class="fa-solid fa-users"></i>
+								<label>Passangers</label>
+								<select>
+									<option value="Adults">Adults only</option>
+									<option value="child">Chlidren with adults</option>
+								</select>
+								
+						
+							</div>
+							<div class="inputbox">
+                                <i class="fa-solid fa-users"></i>
+								<label>Passangers Total numbers</label>
+								<input type="text">
+							</div>
+							<div class="inputbox">
+								<i class="fa-solid fa-user-plus"></i>
+								<label>Cabin Class</label>
+								<select>
+									<option value="Best Fare">Best Fare</option>
+									<option value="Business">Business</option>
+								</select>
+								
+						
+							</div>
+							</div>
+						<button class="submit">
+							<a href="details.html" class="next">BOOK</a>
+						</button>
+                        
+                        
+					</form>
+				</div>
+			</div>
+			<div class="right">
+				
+			<div class="right-inductor"><img src="jue-huang-qUfecpBw5b8-unsplash.jpg" alt=""></div>
+			</div>
+		</div>
+	</section>
+	<script src="booking.js"></script>
+</body>
+</html>
+

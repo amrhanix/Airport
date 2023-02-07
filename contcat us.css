@@ -1,0 +1,143 @@
+img{
+	width: 100%;
+}
+.login {
+    height: 1000px;
+    width: 100%;
+    background: whitesmoke;
+    position: relative;
+}
+.login_box {
+    width: 1150px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #282828;
+    border-radius: 10px;
+ 
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+  width: 60%;
+  height: 100%;
+  padding: 25px 25px;
+  
+}
+label{
+  width: 211px;
+  height: 20px;
+  color: #f2aa4cff;
+  margin-top:5px;
+  margin-left: 10px;
+}
+.login_box .right{
+  width: 40%;
+  height: 100%;
+}
+.left .top_link a {
+    color: #f2aa4cff;
+    font-weight: 400;
+}
+.left .top_link{
+  height: 20px
+}
+.left i{
+  color:whitesmoke;
+  position: absolute;
+  left: 6px;
+  top: 24px;
+}
+.left .contact{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+    width: 73%;
+    margin: auto;
+}
+.left h3{
+  text-align: center;
+  margin-bottom: 10px;
+  color:#f2aa4ffc;
+  position: absolute;
+  top: 5%;
+  left:25%;
+  
+}
+.left p{
+    text-align: center;
+    color:#f2aa4ffc;
+    font-size: 25px;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+.left input,textarea {
+    border: border-box;
+    width: 80%;
+    margin: 20px 0px;
+    margin-bottom: 1px;
+    margin-top: 5px; 
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background:#000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    transition: all 0.5s;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.left textarea:focus,input:focus{
+  outline: none;
+  box-shadow: 0px 0px 15px #f2aa4cff;
+}
+.left{
+	background:#252525;
+}
+.submit {
+    border: none;
+    padding: 10px 60px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background:#000000;
+    border-radius: 30px;
+    color:#f2aa4cff;
+    font-weight: bold;
+    transition: 1s;
+ 
+}
+.submit:hover{
+  background: #f2aa4cff;
+  color: whitesmoke;
+  box-shadow: 0 0 5px #f2aa4cff, 0 0 25px #f2aa4cff,
+  0 0 50px #f2aa4cff,0 0 100px #f2aa4cff;
+}
+
+
+
+
+.right {
+	
+	position: relative;
+}
+
+.right .right-inductor{
+  position: absolute;
+  width: 440px;
+  height:40px;
+  left: 50%;
+  top: 1px;
+  transform: translate(-50%, 0%);
+}
+
+

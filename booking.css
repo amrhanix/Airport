@@ -1,0 +1,170 @@
+img{
+  width: 100%;
+}
+.login{
+  height: 1000px;
+  width: 100%;
+  background: whitesmoke;
+}
+.login_box{
+  width: 1150px;
+  height: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #282828;
+  border-radius:10px ;
+  display: flex;
+  overflow: hidden;
+}
+.login_box .left{
+  width: 70%;
+  height: 100%;
+  padding: 25px 25px;
+}
+label{
+  width: 211px;
+  height: 5px;
+  color: #f2aa4cff;
+  margin-top: 50px;
+  margin-left: 2px;
+
+}
+.inputbox i{
+  color: whitesmoke;
+  width: 20px;
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+
+
+.left .top_link a{
+  color: #f2aa4cff;
+  font-weight: 400px;
+}
+.left .top_link{
+  height: 20px;
+}
+.left h3{
+  position: absolute;
+  left: 25%;
+  top: 2%;
+  text-align:center;
+  margin-top: 10px;
+  color: #f2aa4cff;
+}
+.left p{
+  color:#f2aa4cff;
+  position: absolute;
+  top: 13%;
+  left: 15%;
+  font-size: 18px;
+  text-align: center;
+  font-weight:bolder; 
+  font-family:sans-serif;
+}
+
+.left select ,input{
+  border: border-box;
+  width: 80%;
+  margin: 4px;
+  padding: 7px 20px;  
+  overflow: hidden;
+  background:#000000;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  transition: all 0.5s;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+.left input:focus,select:focus{
+  outline: none;
+  box-shadow: 0px 0px 15px #f2aa4cff;
+}
+.left{
+	background:#252525;
+}
+.submit {
+    border: none;
+    padding: 10px 125px;
+    border-radius: 35px;
+    display: block;
+    background:#000000;
+    border-radius: 30px;
+    color:#f2aa4cff;
+    font-weight: bold;
+    transition: 1s;
+    position: absolute;
+    top: 85%;
+    right: 39%;
+ 
+}
+.submit:hover{
+  background: #f2aa4cff;
+  color: whitesmoke;
+  box-shadow: 0 0 5px #f2aa4cff, 0 0 25px #f2aa4cff,
+  0 0 50px #f2aa4cff,0 0 100px #f2aa4cff;
+}
+
+.user{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+  
+}
+.user .inputbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 4px;
+  
+
+}
+
+.login_box .right{
+  width:30%;
+  height: 100%;
+}
+.right {
+	
+	position: relative;
+}
+
+.right .right-inductor{
+  position: absolute;
+  width: 475px;
+  height:100%;
+  left: 50%;
+  
+ 
+  transform: translate(-50%, 0%);
+}
+.user .inputbox-1 label{
+  color:#f2aa4cff;
+}
+.user .inputbox-1 input{
+  border: none;
+  display: flex;
+  margin-top: 5px;
+}
+.left .next{
+  text-decoration: none;
+  color: #f2aa4cff;
+}
+.left .next:hover{
+  color: whitesmoke; 
+ }
+.top_link i{
+  color: whitesmoke;
+  top: 28px;
+  position: absolute;
+  left: 5px;
+  top: 28px;
+}
