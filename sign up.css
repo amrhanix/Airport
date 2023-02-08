@@ -120,14 +120,7 @@ label{
 	position: relative;
 }
 
-.right .right-inductor{
-  position: absolute;
-  width: 700px;
-  height:700px;
-  left: 50%;
-  top: 1px;
-  transform: translate(-50%, 0%);
-}
+
 .left .next{
   text-decoration: none;
   color: #f2aa4cff;
